@@ -1,14 +1,25 @@
 {
   "name": "create-next-example-app",
   "scripts": {
-    "dev": "next",
+    "dev": "node ssr-server.js --inspect",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "isomorphic-unfetch": "^3.0.0",
     "next": "^7.0.2",
+    "next-routes": "^1.4.2",
+    "nodemailer": "^5.1.1",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-color": "^2.17.0",
+    "react-dom": "^16.7.0",
+    "react-dropzone": "^8.0.3",
+    "react-html-parser": "^2.0.2",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.1.3"
   }
 }
